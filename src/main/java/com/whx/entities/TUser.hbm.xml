@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generated 2018-3-18 17:04:40 by Hibernate Tools 5.1.6.Final --><!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="true" default-access="property"
+	default-cascade="none" default-lazy="true">
+	<class catalog="law" dynamic-insert="false" dynamic-update="false"
+		mutable="true" name="com.whx.entities.TUser" optimistic-lock="version"
+		polymorphism="implicit" select-before-update="false" table="t_user">
+		<id name="account" type="string">
+			<column length="60" name="account" />
+			<generator class="assigned" />
+		</id>
+		<property generated="never" lazy="false" name="password"
+			optimistic-lock="true" type="string" unique="false">
+			<column length="60" name="password" not-null="true">
+				<comment>登录密码。</comment>
+			</column>
+		</property>
+		<property generated="never" lazy="false" name="category"
+			optimistic-lock="true" type="string" unique="false">
+			<column length="5" name="category" not-null="true">
+				<comment>用户类别。</comment>
+			</column>
+		</property>
+		<property generated="never" lazy="false" name="phone"
+			optimistic-lock="true" type="string" unique="false">
+			<column length="11" name="phone">
+				<comment>联系电话。</comment>
+			</column>
+		</property>
+		<property generated="never" lazy="false" name="concerns"
+			optimistic-lock="true" type="string" unique="false">
+			<column length="1024" name="concerns">
+				<comment>用户感兴趣话题、关注点（本字段用于跟踪用户兴趣点）。</comment>
+			</column>
+		</property>
+		<property generated="never" lazy="false" name="contributions"
+			optimistic-lock="true" type="java.lang.Short" unique="false">
+			<column name="contributions">
+				<comment>资料贡献数量。</comment>
+			</column>
+		</property>
+	</class>
+</hibernate-mapping>
