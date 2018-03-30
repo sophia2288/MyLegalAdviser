@@ -2,6 +2,8 @@ F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\serviceImpl\UserServiceImpl.jav
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\hibernate\MyHibernateSessionFactory.java
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\daoImpl\UserDaoImpl.java
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\service\UserService.java
+F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\dao\DAOSupport.java
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\controller\TestController.java
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\entities\TUser.java
+F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\controller\UserController.java
 F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\dao\UserDao.java

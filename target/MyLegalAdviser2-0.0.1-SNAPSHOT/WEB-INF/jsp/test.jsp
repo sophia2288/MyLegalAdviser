@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>Hello--${info}!
-<h2>你好，欢迎光临我的站点！</h2>
+<h2>您好，欢迎光临本站点！</h2>
 </body>
 </html>
