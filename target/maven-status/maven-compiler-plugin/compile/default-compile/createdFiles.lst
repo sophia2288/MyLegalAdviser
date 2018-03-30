@@ -1,7 +1,6 @@
 com\whx\serviceImpl\UserServiceImpl.class
 com\whx\dao\DAOSupport.class
 com\whx\hibernate\MyHibernateSessionFactory.class
-com\whx\controller\UserController.class
 com\whx\controller\TestController.class
 com\whx\entities\TUser.class
 com\whx\service\UserService.class

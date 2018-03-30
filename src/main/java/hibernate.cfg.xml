@@ -21,6 +21,6 @@
 		<property name="hibernate.format_sql">false</property>
 		<property name="hibernate.search.autoregister_listeners">true</property>
 		<property name="hibernate.validator.apply_to_ddl">false</property>
-		<mapping resource="com/whx/entities/TUser.hbm.xml" />
+		<!-- <mapping resource="com/whx/entities/TUser.hbm.xml" /> -->
 	</session-factory>
 </hibernate-configuration>

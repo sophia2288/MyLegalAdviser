@@ -32,7 +32,7 @@ public class UserDaoImpl /*extends HibernateDaoSupport*/ implements UserDao {
 	}
 
 	@SuppressWarnings({ "unchecked" })
-	@Override
+	
 	public List<TUser> getAllUsers() {
 		List<TUser> userList = new ArrayList<TUser>();
 		Session session = hibernateTemplate.getSessionFactory().openSession();
@@ -45,7 +45,7 @@ public class UserDaoImpl /*extends HibernateDaoSupport*/ implements UserDao {
 		return userList;
 	}
 
-	@Override
+	
 	public boolean isExists(String account) {
 		Query query = hibernateTemplate.getSessionFactory().openSession().createQuery("from TUser u where u.account = :account")
 				.setParameter("account", account);
