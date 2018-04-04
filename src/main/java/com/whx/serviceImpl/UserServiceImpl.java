@@ -32,12 +32,10 @@ public class UserServiceImpl implements UserService {
 		System.out.println("UserServiceImpl()");
 	}
 
-	@Override
 	public List<TUser> getAllUsers() {
 		return userDao.getAllUsers();
 	}
 
-	@Override
 	public boolean isExists(String account) {
 		return userDao.isExists(account);
 	}
