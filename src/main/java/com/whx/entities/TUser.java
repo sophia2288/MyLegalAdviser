@@ -101,4 +101,8 @@ public class TUser implements java.io.Serializable {
 	public void setContributions(Short contributions) {
 		this.contributions = contributions;
 	}
+	
+	
+	
+	
 }
