@@ -1,7 +1,9 @@
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\serviceImpl\UserServiceImpl.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\hibernate\MyHibernateSessionFactory.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\daoImpl\UserDaoImpl.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\service\UserService.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\controller\TestController.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\entities\TUser.java
-F:\JavaDev\MyLegalAdviser2\src\main\java\com\whx\dao\UserDao.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\daoImpl\UserDaoImpl.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\dao\UserDao.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\serviceImpl\UserServiceImpl.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\entities\TUser.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\hibernate\MyHibernateSessionFactory.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\service\UserService.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\controller\TestController.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\dao\DAOSupport.java
+E:\MyProjects\MyLegalAdviser\src\main\java\com\whx\controller\UserController.java
